@@ -21,6 +21,7 @@ const MainNavigation = () => {
   }, [path]);
 
   return (
+
     <Navbar
       bg="dark"
       variant="dark"
@@ -32,7 +33,7 @@ const MainNavigation = () => {
         to="/"
         onClick={() => setCurrentKey(1)}
       >
-        <h4 style={{ margin: '0' }}>Paras Adhikary</h4>
+        <h4 style={{ margin: '0' }}>Lumie✨</h4>
       </Navbar.Brand>
       <Navbar.Collapse className="justify-content-end">
         <Nav

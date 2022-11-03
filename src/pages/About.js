@@ -1,15 +1,15 @@
 import React from 'react';
 import { ListGroup } from 'react-bootstrap';
-import { Button, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import '../components/WidthLimit.scss';
 
 const About = () => {
   const profile = (
     <Image
       alt="logo"
-      width="120"
-      height="150"
-      src={process.env.PUBLIC_URL + '2019_Adhikary_Paras.jpg'}
+      width="200"
+      height="200"
+      src={process.env.PUBLIC_URL + 'a.png'}
       className="mb-4"
       rounded
     />
@@ -23,18 +23,11 @@ const About = () => {
           <strong>About me...</strong>
         </h4>
         <h5 className="text-white mb-5 max-button">
-          I am an aspiring entrepreneur, video creator, and engineer with
-          experience in front-end and back end devlopement. My hobbies include
-          coding, playing soccer, and hip-hop music!
+          I am a software developer student at Moringa,Kenya with beginner experience
+          in React js and ruby programming
+         
         </h5>
-        <Button
-          variant="outline-light"
-          href={process.env.PUBLIC_URL + 'AdhikaryParas2020_2.pdf'}
-          size="lg"
-          download
-        >
-          My Resume
-        </Button>
+        
       </div>
     </ListGroup>
   );

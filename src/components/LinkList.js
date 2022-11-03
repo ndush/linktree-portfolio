@@ -6,6 +6,8 @@ const LinkList = () => {
   const links = [
     'https://www.linkedin.com/in/damaris-nduku-10104424/',
     'https://github.com/ndush',
+    'https://training.zuri.team/',
+    'https://books.zuri.team/,'
   ];
 
   return (
@@ -13,13 +15,13 @@ const LinkList = () => {
       <div className="mx-lg-5 mr-3 ml-3 d-flex flex-column align-items-center">
         <Image
           alt="logo"
-          width="120"
-          height="150"
+          width="200"
+          height="200"
           src={process.env.PUBLIC_URL + 'a.png'}
           className="mb-4"
           rounded
         />
-        <h5 className="mb-4 text-white">@paras.adhikary</h5>
+        <h5 className="mb-4 text-white">@lumie</h5>
         {links.map((link) => (
           <LinkButton key={link} link={link} />
         ))}
